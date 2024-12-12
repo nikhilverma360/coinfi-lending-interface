@@ -19,7 +19,7 @@ import {
   AaveV3Polygon,
   AaveV3Scroll,
   AaveV3ScrollSepolia,
-  AaveV3Sepolia,
+  // AaveV3Sepolia,
   AaveV3ZkSync,
 } from '@bgd-labs/aave-address-book';
 import { ReactNode } from 'react';
@@ -312,7 +312,7 @@ export const marketsData: {
       faucet: true,
     },
     addresses: {
-      LENDING_POOL_ADDRESS_PROVIDER:'0xBb825c5C637E7A8810A5Efe55E24706919a07389',
+      LENDING_POOL_ADDRESS_PROVIDER: '0xBb825c5C637E7A8810A5Efe55E24706919a07389',
       LENDING_POOL: '0x84e3c1f2622A7CC34411dbC352E95973fb0227aC',
       WETH_GATEWAY: '0xB0649e4f86F4c3b84887207419fE2E4a9C4b1C81',
       FAUCET: '0xB5cE157d734834D9A84516b4FbB7EcFf31Bb2f09',
