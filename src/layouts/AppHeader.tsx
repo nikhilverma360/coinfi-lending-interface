@@ -64,7 +64,7 @@ export function AppHeader() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [md]);
 
-  const headerHeight = 48;
+  const headerHeight = 64;
 
   const toggleWalletWigit = (state: boolean) => {
     if (md) setMobileDrawerOpen(state);
@@ -143,10 +143,15 @@ export function AppHeader() {
             mr: 3,
             transition: '0.3s ease all',
             '&:hover': { opacity: 0.7 },
+            padding: {
+              xs: '8px 16px',
+              sm: '8px 16px',
+              md: '8px 16px',
+            },
           }}
           onClick={() => setMobileMenuOpen(false)}
         >
-          <img src={uiConfig.appLogo} alt="AAVE" width={72} height={20} />
+          <img src={uiConfig.appLogo} alt="AAVE" width={92} height={35} />
         </Box>
         <Box sx={{ mr: sm ? 1 : 3 }}>
           {ENABLE_TESTNET && (
@@ -156,7 +161,7 @@ export function AppHeader() {
                 size="small"
                 color="primary"
                 sx={{
-                  backgroundColor: '#B6509E',
+                  backgroundColor: '#c27f02',
                   '&:hover, &.Mui-focusVisible': { backgroundColor: 'rgba(182, 80, 158, 0.7)' },
                 }}
               >
