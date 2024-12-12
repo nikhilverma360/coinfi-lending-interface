@@ -215,7 +215,7 @@ export const BorrowModalContent = ({
         />
       )}
 
-      <ParameterChangewarning underlyingAsset={underlyingAsset} />
+      <ParameterChangewarning />
 
       <BorrowActions
         poolReserve={poolReserve}
