@@ -20,12 +20,12 @@ type Mode = 'light' | 'dark';
  */
 export function AppGlobalStyles({ children }: { children: ReactNode }) {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
-  const [mode, setMode] = useState<Mode>(prefersDarkMode ? 'dark' : 'light');
+  const [mode, setMode] = useState<Mode>('dark');
   const colorMode = useMemo(
     () => ({
       toggleColorMode: () => {
-        setMode((prevMode) => {
-          const newMode = prevMode === 'light' ? 'dark' : 'light';
+        setMode(() => {
+          const newMode = 'dark';
           localStorage.setItem('colorMode', newMode);
           return newMode;
         });

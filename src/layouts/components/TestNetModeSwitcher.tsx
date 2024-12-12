@@ -10,16 +10,16 @@ interface TestNetModeSwitcherProps {
 
 export const TestNetModeSwitcher = ({ component = ListItem }: TestNetModeSwitcherProps) => {
   const testnetsEnabledId = 'testnetsEnabled';
-  const testnetsEnabledLocalstorage = localStorage.getItem(testnetsEnabledId) === 'true' || false;
+  const testnetsEnabledLocalstorage = true;
   const [testnetsEnabled, setTestnetsMode] = useState(testnetsEnabledLocalstorage);
   const trackEvent = useRootStore((store) => store.trackEvent);
 
   const toggleTestnetsEnabled = () => {
     const newState = !testnetsEnabled;
-    setTestnetsMode(!testnetsEnabled);
-    localStorage.setItem(testnetsEnabledId, newState ? 'true' : 'false');
+    setTestnetsMode(true);
+    localStorage.setItem(testnetsEnabledId, newState ? 'true' : 'true');
     // Set window.location to trigger a page reload when navigating to the the dashboard
-    window.location.href = '/';
+    // window.location.href = '/';
   };
 
   return (

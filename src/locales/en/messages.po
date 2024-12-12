@@ -902,10 +902,6 @@ msgstr "Disable E-Mode"
 msgid "Disable fork"
 msgstr "Disable fork"
 
-#: src/layouts/AppHeader.tsx
-msgid "Disable testnet"
-msgstr "Disable testnet"
-
 #: src/components/transactions/CollateralChange/CollateralChangeActions.tsx
 msgid "Disable {symbol} as collateral"
 msgstr "Disable {symbol} as collateral"
@@ -1161,10 +1157,6 @@ msgstr "Fork mode is ON"
 msgid "Forum discussion"
 msgstr "Forum discussion"
 
-#: src/layouts/components/LanguageSwitcher.tsx
-msgid "French"
-msgstr "French"
-
 #: src/modules/staking/StakingHeader.tsx
 msgid "Funds in the Safety Module"
 msgstr "Funds in the Safety Module"
@@ -1212,10 +1204,6 @@ msgstr "Go to V3 Dashboard"
 #: src/ui-config/menu-items/index.tsx
 msgid "Governance"
 msgstr "Governance"
-
-#: src/layouts/components/LanguageSwitcher.tsx
-msgid "Greek"
-msgstr "Greek"
 
 #: src/components/transactions/FlowCommons/TxModalDetails.tsx
 #: src/modules/dashboard/DashboardTopPanel.tsx
@@ -1394,10 +1382,6 @@ msgstr "Let us know how we can make the app better for you. For user support rel
 msgid "Linked addresses"
 msgstr "Linked addresses"
 
-#: src/layouts/MobileMenu.tsx
-msgid "Links"
-msgstr "Links"
-
 #: src/modules/history/actions/ActionDetails.tsx
 msgid "Liquidated collateral"
 msgstr "Liquidated collateral"
@@ -1551,7 +1535,6 @@ msgstr "Merit Program rewards are claimed through the"
 msgid "Migrate"
 msgstr "Migrate"
 
-#: src/layouts/MobileMenu.tsx
 #: src/layouts/MoreMenu.tsx
 msgid "Migrate to Aave V3"
 msgstr "Migrate to Aave V3"
@@ -2204,10 +2187,6 @@ msgstr "Sorry, we couldn't find the page you were looking for."
 msgid "Source"
 msgstr "Source"
 
-#: src/layouts/components/LanguageSwitcher.tsx
-msgid "Spanish"
-msgstr "Spanish"
-
 #: src/modules/history/actions/BorrowRateModeBlock.tsx
 msgid "Stable"
 msgstr "Stable"
@@ -2478,8 +2457,8 @@ msgid "The app is running in fork mode."
 msgstr "The app is running in fork mode."
 
 #: src/layouts/AppHeader.tsx
-msgid "The app is running in testnet mode. Learn how it works in"
-msgstr "The app is running in testnet mode. Learn how it works in"
+msgid "The app is running in testnet mode."
+msgstr "The app is running in testnet mode."
 
 #: src/ui-config/errorMapping.tsx
 msgid "The caller of the function is not an AToken"
@@ -3046,8 +3025,8 @@ msgid "With a voting power of <0/>"
 msgstr "With a voting power of <0/>"
 
 #: src/modules/faucet/FaucetTopPanel.tsx
-msgid "With testnet Faucet you can get free assets to test the Aave Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
-msgstr "With testnet Faucet you can get free assets to test the Aave Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
+msgid "With testnet Faucet you can get free assets to test the Protocol. Select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value."
+msgstr "With testnet Faucet you can get free assets to test the Protocol. Select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value."
 
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
 #: src/components/transactions/Withdraw/WithdrawAndUnwrapActions.tsx
