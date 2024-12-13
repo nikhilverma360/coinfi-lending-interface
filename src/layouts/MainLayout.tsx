@@ -15,7 +15,7 @@ export function MainLayout({ children }: { children: ReactNode }) {
           display: 'flex',
           flexDirection: 'column',
           flex: 1,
-          backgroundColor: 'rgba(255, 255, 255, 0.2)', // Semi-transparent white
+          backgroundColor: 'rgba(255, 255, 255, 0)', // Semi-transparent white
         }}
       >
         {children}
